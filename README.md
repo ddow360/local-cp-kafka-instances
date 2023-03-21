@@ -1,7 +1,17 @@
 # Local CP Kafka Instance
 
-Easy setup with docker to create Confluent Platform instance locally. This provides an easy throw away
-development sandbox.
+_Easy setup with docker to create Confluent Platform instance locally. This provides an easy throw away
+development sandbox._
+
+-------------
+
+### Steps for Mac
+asdf
+
+### Steps for Windows 10
+asdf
+
+_______________
 
 ## Overview
 **cp-all-in-one** is a pre-packaged Docker container provided by Confluent
@@ -17,8 +27,6 @@ systems, and Confluent Control Center to monitor and manage the Kafka cluster.
 You can create topics, produce and consume messages, set up Kafka Connectors
 to transfer data from external sources into Kafka, and use Control Center to visualize and monitor
 the health of your Kafka cluster.
-
-
 
 ### Features
 
@@ -47,6 +55,6 @@ the health of your Kafka cluster.
       _  |  |  |  _
      | |_|_|__|_| |
      |             |
-     |   [C W K]   |
+     |   [C w K]   |
      |             |
      '-------------'
