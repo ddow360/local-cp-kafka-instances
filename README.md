@@ -35,6 +35,8 @@ the health of your Kafka cluster.
 * KsqlDB
 * Kafka Connect
 * Confluent Control Center 
+* Rest Proxy
+* 3 Brokers
 * Health Monitoring
 * Command-line tools
 * Schema Registry
@@ -42,6 +44,7 @@ the health of your Kafka cluster.
 #### All features with docker-compose-light.yml
 
 * Confluent Control Center
+* 3 Brokers
 * Health Monitoring
 * Schema Registry
 
