@@ -3,6 +3,8 @@
 
 # docker-compose -f cp-light.yml up -d
 
+# To access Control Center http://localhost:9021/clusters
+
 version: '2'
 services:
   zookeeper:
