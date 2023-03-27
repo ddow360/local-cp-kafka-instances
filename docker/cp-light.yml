@@ -1,7 +1,7 @@
 # This is a light version from cp-all-in-one, it gives the basics Confluent provides
 # https://github.com/confluentinc/cp-all-in-one/blob/7.3.0-post/cp-all-in-one/docker-compose.yml
 
-# docker-compose -f docker-compose-light.yml up -d
+# docker-compose -f cp-light.yml up -d
 
 version: '2'
 services:
