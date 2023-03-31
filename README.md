@@ -5,11 +5,7 @@ development sandbox._
 
 -------------
 
-### Steps for Mac
-asdf
-
-### Steps for Windows 10
-asdf
+# Note: Windows you would most likely need Git Bash installed on your computer in order to run the prompted shell script. 
 
 _______________
 
@@ -47,7 +43,6 @@ the health of your Kafka cluster.
 * 3 Brokers
 * Health Monitoring
 * Schema Registry
-
 
 
 ### Coffee with Kafka
