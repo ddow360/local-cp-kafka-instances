@@ -5,7 +5,7 @@ development sandbox._
 
 -------------
 
-# Note: Windows you would most likely need Git Bash installed on your computer in order to run the prompted shell script. 
+<i> Note: Windows you would most likely need Git Bash installed on your computer in order to run the prompted shell script. </i>
 
 _______________
 
