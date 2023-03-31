@@ -24,7 +24,7 @@ the health of your Kafka cluster.
 
 ### Features
 
-#### All features with docker-compose-full.yml
+#### All features with cp-full.yml
 
 * KsqlDB
 * Kafka Connect
@@ -35,7 +35,7 @@ the health of your Kafka cluster.
 * Command-line tools
 * Schema Registry
 
-#### All features with docker-compose-light.yml
+#### All features with cp-light.yml
 
 * Confluent Control Center
 * 3 Brokers
