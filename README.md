@@ -1,9 +1,9 @@
 # Local CP Kafka Instance
 
 _Easy setup with docker to create Confluent Platform instance locally. This provides an easy throw away
-development sandbox.
+development sandbox._
 
-Note: Windows you would most likely need Git Bash installed on your computer in order to run the prompted shell script._
+_Note: Windows you would most likely need Git Bash installed on your computer in order to run the prompted shell script._
 
 _______________
 
