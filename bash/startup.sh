@@ -30,8 +30,9 @@ echo "Selected: $docker_file"
 }
 
 function spin_down {
-    # Spin down docker-compose
-    docker-compose -f ../docker/"$DOCKER_FILE" down
+    # Spin down  docker-compose
+    docker-compose -f ../docker/"cp-full.yml" down
+    docker-compose -f ../docker/"cp-light.yml" down
 }
 
 # Ask the user what they want to do
