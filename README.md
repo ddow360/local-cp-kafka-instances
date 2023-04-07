@@ -3,13 +3,11 @@
 _Easy setup with docker to create Confluent Platform instance locally. This provides an easy throw away
 development sandbox._
 
--------------
+#### Mac
+Simply do sh startup.sh to run the script and select the prompts
 
-### Steps for Mac
-asdf
-
-### Steps for Windows 10
-asdf
+#### Windows:
+You would most likely need Git Bash installed on your computer in order to run the prompted shell script. If you are unable to do so you can run it with the prompts given in the yml files.
 
 _______________
 
@@ -30,7 +28,7 @@ the health of your Kafka cluster.
 
 ### Features
 
-#### All features with docker-compose-full.yml
+#### All features with cp-full.yml
 
 * KsqlDB
 * Kafka Connect
@@ -41,16 +39,14 @@ the health of your Kafka cluster.
 * Command-line tools
 * Schema Registry
 
-#### All features with docker-compose-light.yml
+#### All features with cp-light.yml
 
 * Confluent Control Center
 * 3 Brokers
 * Health Monitoring
 * Schema Registry
 
-
-
-### Coffee with Kafka
+#
              )  (
         )      (
        (        )
