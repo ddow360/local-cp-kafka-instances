@@ -31,18 +31,24 @@ echo "Selected: $docker_file"
 
 function spin_down {
     # Spin down  docker-compose
-    docker-compose -f ../docker/"cp-full.yml" down
-    docker-compose -f ../docker/"cp-light.yml" down
+    docker-compose -f ../docker/"$DOCKER_FILE" down
 }
 
 # Ask the user what they want to do
-echo "What do you want to do?"
-select option in "Spin up containers" "Spin down containers"; do
-    case $option in
-        "Spin up containers" ) spin_up; break;;
-        "Spin down containers" ) spin_down; break;;
-    esac
-done
+function spin_down {
+
+    # Ask for the docker-compose file
+    echo "Which kafka instance do you want to spin down?"
+    select docker_file in "cp-light.yml" "cp-full.yml"; do
+        case $docker_file in
+            cp-light.yml ) DOCKER_FILE=cp-light.yml; break;;
+            cp-full.yml ) DOCKER_FILE=cp-full.yml; break;;
+        esac
+    done
+
+    # Spin down docker-compose
+    docker-compose -f ../docker/"$DOCKER_FILE" down
+}
 
 # Notify user of selected option
 echo "Selected: $option"
